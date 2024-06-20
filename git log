@@ -1,0 +1,24 @@
+[33m4ec0638[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: commit (merge): Animacion main
+[33mfe7ab78[m[33m ([m[1;31morigin/rama-buena[m[33m, [m[1;32mrama-buena[m[33m)[m HEAD@{1}: reset: moving to rama-buena
+[33m30b3336[m HEAD@{2}: checkout: moving from rama-buena to main
+[33mfe7ab78[m[33m ([m[1;31morigin/rama-buena[m[33m, [m[1;32mrama-buena[m[33m)[m HEAD@{3}: checkout: moving from main to rama-buena
+[33m30b3336[m HEAD@{4}: checkout: moving from rama-buena to main
+[33mfe7ab78[m[33m ([m[1;31morigin/rama-buena[m[33m, [m[1;32mrama-buena[m[33m)[m HEAD@{5}: checkout: moving from main to rama-buena
+[33m30b3336[m HEAD@{6}: checkout: moving from rama-buena to main
+[33mfe7ab78[m[33m ([m[1;31morigin/rama-buena[m[33m, [m[1;32mrama-buena[m[33m)[m HEAD@{7}: checkout: moving from main to rama-buena
+[33m30b3336[m HEAD@{8}: commit (merge): Resuelto conflicto de fusión
+[33m0913785[m HEAD@{9}: checkout: moving from rama-buena to main
+[33mfe7ab78[m[33m ([m[1;31morigin/rama-buena[m[33m, [m[1;32mrama-buena[m[33m)[m HEAD@{10}: checkout: moving from main to rama-buena
+[33m0913785[m HEAD@{11}: checkout: moving from fe7ab78400bea96861fc54c6e871f19c4758f63e to main
+[33mfe7ab78[m[33m ([m[1;31morigin/rama-buena[m[33m, [m[1;32mrama-buena[m[33m)[m HEAD@{12}: commit: Animacion de mario
+[33mc935b39[m HEAD@{13}: checkout: moving from main to c935b392f059108feb458707258132a4e85b93ca
+[33m0913785[m HEAD@{14}: revert: Revert "Subida de las escaleras"
+[33m49c5397[m HEAD@{15}: commit: algo se daño
+[33mc935b39[m HEAD@{16}: commit: Subida de las escaleras
+[33m0d767d0[m HEAD@{17}: commit: Salto perfeccionado
+[33m38686fe[m HEAD@{18}: commit: Salto simple de mario
+[33m369e49d[m HEAD@{19}: commit: Movimiento horizontal de mario
+[33m34447db[m HEAD@{20}: commit: Nivel diseñado
+[33m63bd030[m HEAD@{21}: commit: Prefabs listos
+[33mad7c350[m HEAD@{22}: commit: Inicio del proyecto (vacio)
+[33mf6c7495[m HEAD@{23}: clone: from https://github.com/JuanGimenez7/Donkey-Kong.git
