@@ -11,6 +11,7 @@ public class NewBehaviourScript : MonoBehaviour
     public float moveSpeed = 1f;
     public float jumpStrength = 1f;
     private bool grounded;
+    private bool climbing;
 
     private void Awake()
     {
@@ -22,6 +23,7 @@ public class NewBehaviourScript : MonoBehaviour
     private void CheckCollision()
     {
         grounded = false;
+        climbing = false;
         Vector2 size = collider.bounds.size;
         size.y += 0.1f;
         size.x /= 2f;
@@ -36,6 +38,10 @@ public class NewBehaviourScript : MonoBehaviour
                 grounded = hit.transform.position.y < transform.position.y - 0.5f;
                 Physics2D.IgnoreCollision(collider, results[i], !grounded);
             }
+            else if (hit.layer == LayerMask.NameToLayer("Ladder"))
+            {
+                climbing = true;
+            }
         }
     }
 
@@ -43,7 +49,11 @@ public class NewBehaviourScript : MonoBehaviour
     {
         CheckCollision();
 
-        if (grounded && Input.GetButtonDown("Jump"))
+        if (climbing)
+        {
+            direction.y = Input.GetAxis("Vertical") * moveSpeed;
+        }
+        else if (grounded && Input.GetButtonDown("Jump"))
         {
             direction = Vector2.up * jumpStrength;
         }
